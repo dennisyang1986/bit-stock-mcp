@@ -2,24 +2,26 @@
 
 一个面向bit美股券商的 MCP Server，可以让任何AI Agent 比如龙虾，codex，workbuddy等等。 通过这个MCP操作你的bit的股票账户。
 
-## 推荐专业股票投资AI Agent：driven - 免费试用链接：https://driven.ai/r/yang1 
+## 推荐专业股票投资AI Agent：driven 
+- 免费试用链接：https://driven.ai/r/yang1 
 
-- 使用前你需要拥有一个bit的美股账户，👇下面是开户指引。
-- BIT开户链接：
-- https://research.bshareweb.com/stock_research/prd/channel_20260803.html?invite_code=Y296E2  
+## 使用前你需要拥有一个bit的美股账户，👇下面是开户指引。
+- BIT开户链接：https://research.bshareweb.com/stock_research/prd/channel_20260803.html?invite_code=Y296E2  
 - 或者下载app填写注册页面填写邀请码 【Y296E2】
 - ✅ 中国大陆用户用内地身份证即可开户。
 - ✅ 支持USDT等虚拟货币入金。
 - ✅ 不在CRS范围内。
+  
+## 
 
 - BIT证券是一家全球化的一站式券商，致力于为全球投资者提供安全、高效的美港股投资服务。
--  ✅ 真实美股，覆盖 10,000+ 美股及 ETF，支持股东权益
--  ✅ 港股、港股 IPO 已开放，美港股一个账户搞定
--  ✅ 身份证即可开户，支持稳定币/银行电汇/Wise/股票转仓等多种入金方式
--  ✅ 美股、港股 0 佣金，美股期权0佣金&平台费仅$0.3/张
--  ✅ 用户资产由持牌机构托管，与平台资产严格隔离，更安全、更放心
--  ✅ 不在 C-R-S 自动信息交换安排内，更适合跨境资产配置
--  ✅ 陆续还有更多市场开放（日股、韩股等）
+>  ✅ 真实美股，覆盖 10,000+ 美股及 ETF，支持股东权益
+>  ✅ 港股、港股 IPO 已开放，美港股一个账户搞定
+>  ✅ 身份证即可开户，支持稳定币/银行电汇/Wise/股票转仓等多种入金方式
+>  ✅ 美股、港股 0 佣金，美股期权0佣金&平台费仅$0.3/张
+>  ✅ 用户资产由持牌机构托管，与平台资产严格隔离，更安全、更放心
+>  ✅ 不在 C-R-S 自动信息交换安排内，更适合跨境资产配置
+>  ✅ 陆续还有更多市场开放（日股、韩股等）
 
 - 原官方API：https://www.bit.com/docs/en-us/stock.html 
 
