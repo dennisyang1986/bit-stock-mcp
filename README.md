@@ -2,17 +2,17 @@
 
 一个面向bit美股券商的 MCP Server，可以让任何AI Agent 比如龙虾，codex，workbuddy等等。 通过这个MCP操作你的bit的股票账户。
 
-## 推荐专业股票投资AI Agent：driven 
+### 推荐专业股票投资AI Agent：driven
 - 免费试用链接：https://driven.ai/r/yang1 
 
-## 使用前你需要拥有一个bit的美股账户，👇下面是开户指引。
+### 使用前你需要拥有一个bit的美股账户，👇下面是开户指引。
 - BIT开户链接：https://research.bshareweb.com/stock_research/prd/channel_20260803.html?invite_code=Y296E2  
 - 或者下载app填写注册页面填写邀请码 【Y296E2】
 - ✅ 中国大陆用户用内地身份证即可开户。
 - ✅ 支持USDT等虚拟货币入金。
 - ✅ 不在CRS范围内。
   
-## 
+### 
 
 - BIT证券是一家全球化的一站式券商，致力于为全球投资者提供安全、高效的美港股投资服务。
 >  ✅ 真实美股，覆盖 10,000+ 美股及 ETF，支持股东权益
