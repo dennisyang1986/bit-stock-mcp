@@ -1,34 +1,50 @@
 # bit-stock-mcp
 
-一个面向bit美股券商的 MCP Server，可以让任何AI Agent 比如龙虾，codex，workbuddy等等。 通过这个MCP操作你的bit的股票账户。
+一个面向 bit 美股券商的 MCP Server，可让支持 MCP 的 AI Agent（如龙虾、Codex、WorkBuddy 等）连接并操作你的 bit 股票账户。
 
-## 推荐专业股票投资AI Agent：driven 
-- 免费试用链接：https://driven.ai/r/yang1 
-
-## 使用前你需要拥有一个bit的美股账户，👇下面是开户指引。
-- BIT开户链接：https://research.bshareweb.com/stock_research/prd/channel_20260803.html?invite_code=Y296E2  
-- 或者下载app填写注册页面填写邀请码 【Y296E2】
-- ✅ 中国大陆用户用内地身份证即可开户。
-- ✅ 支持USDT等虚拟货币入金。
-- ✅ 不在CRS范围内。
-  
-## 
-
-- BIT证券是一家全球化的一站式券商，致力于为全球投资者提供安全、高效的美港股投资服务。
->  ✅ 真实美股，覆盖 10,000+ 美股及 ETF，支持股东权益
->  ✅ 港股、港股 IPO 已开放，美港股一个账户搞定
->  ✅ 身份证即可开户，支持稳定币/银行电汇/Wise/股票转仓等多种入金方式
->  ✅ 美股、港股 0 佣金，美股期权0佣金&平台费仅$0.3/张
->  ✅ 用户资产由持牌机构托管，与平台资产严格隔离，更安全、更放心
->  ✅ 不在 C-R-S 自动信息交换安排内，更适合跨境资产配置
->  ✅ 陆续还有更多市场开放（日股、韩股等）
-
-- 原官方API：https://www.bit.com/docs/en-us/stock.html 
+- 官方 API 文档：[bit.com Stock API Reference](https://www.bit.com/docs/en-us/stock.html)
 
 服务使用 Node.js 原生模块实现，无 npm 运行时依赖；提供账户、持仓和订单查询，也支持下单、改单与撤单。交易功能默认关闭，并内置数量、金额、市场单、交易时段和标的白名单等风控开关。
 
 > [!CAUTION]
 > 本项目可以操作真实证券账户。请先保持只读模式完成验证，并自行评估交易、凭证保管和网络暴露风险。本项目不构成投资建议。
+
+## 使用前准备
+
+使用本项目之前，你需要：
+
+1. 一个已开通美股交易功能的 bit 账户；
+2. 可用的 bit API Key；
+3. 支持 MCP Streamable HTTP 的 AI Agent 或客户端。
+
+### 1. 开通 bit 美股账户
+
+| 项目 | 说明 |
+| --- | --- |
+| 推荐开户链接 | [通过推荐链接开通 bit 账户](https://research.bshareweb.com/stock_research/prd/channel_20260803.html?invite_code=Y296E2) |
+| App 注册 | 下载 bit App，在注册页面填写邀请码 `Y296E2` |
+| 开户证件 | 中国大陆用户可使用内地身份证开户 |
+| 入金方式 | 支持 USDT 等稳定币、银行电汇、Wise 和股票转仓等方式 |
+| CRS 说明 | 平台介绍称不在 CRS 自动信息交换安排内 |
+
+#### bit 证券服务特点
+
+- **真实美股**：覆盖 10,000+ 只美股及 ETF，支持相应股东权益；
+- **港股服务**：支持港股及港股 IPO，美股和港股可通过同一账户使用；
+- **交易费用**：美股、港股 0 佣金；美股期权 0 佣金，平台费为每张 0.3 美元；
+- **资产托管**：用户资产由持牌机构托管，并与平台资产隔离；
+- **更多市场**：平台计划陆续开放日股、韩股等市场。
+
+> [!NOTE]
+> 开户资格、费率、入金方式、产品范围以及税务和 CRS 规则可能随地区与时间调整，请以 bit 官方最新说明和所在地适用法规为准。
+
+### 2. 推荐 AI 投资 Agent：Driven
+
+Driven 是面向股票投资场景的 AI Agent，可通过本 MCP 连接你的 bit 股票账户。
+
+- [免费试用 Driven](https://driven.ai/r/yang1)
+
+> 推荐说明：上述 bit 开户链接、邀请码及 Driven 试用链接均为项目作者提供的推荐内容。
 
 ## 功能特性
 
